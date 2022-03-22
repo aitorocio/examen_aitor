@@ -1,3 +1,28 @@
 /* ********* */
 /* @GRID*/
 /* ********* */
+
+.parteSuperior{
+    display: flex;
+    
+    &__informacion{
+        display: grid;
+        row-gap: 4px ;
+    }
+}
+
+.parteInferior{
+    display: flex;
+    &__informacion{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
