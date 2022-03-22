@@ -19,7 +19,7 @@ body{
     padding: 15px;
 }
 .parteSuperior{
-    background-color: #f2f8f8;
+    background-color: $fondoParteSuperior;
     padding: 50px;
 
 
@@ -37,7 +37,7 @@ body{
 
 .boton{
     text-decoration: none;
-    color: #d6f6ff;
+    color: $colorTextoBoton;
     padding: 15px;
     background-color: $colorBoton;
     border-radius: 5px;
